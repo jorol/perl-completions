@@ -1,0 +1,2940 @@
+{
+    "-X" : {
+       "body" : [
+          "-${1:X}"
+       ],
+       "description" : "-X",
+       "prefix" : "-X"
+    },
+    "-X DIRHANDLE" : {
+       "body" : [
+          "-${1:X} ${2:DIRHANDLE}"
+       ],
+       "description" : "-X DIRHANDLE",
+       "prefix" : "-X"
+    },
+    "-X EXPR" : {
+       "body" : [
+          "-${1:X} ${2:EXPR}"
+       ],
+       "description" : "-X EXPR",
+       "prefix" : "-X"
+    },
+    "-X FILEHANDLE" : {
+       "body" : [
+          "-${1:X} ${2:FILEHANDLE}"
+       ],
+       "description" : "-X FILEHANDLE",
+       "prefix" : "-X"
+    },
+    "__FILE__" : {
+       "body" : [
+          "__FILE__"
+       ],
+       "description" : "__FILE__",
+       "prefix" : "__FILE__"
+    },
+    "__LINE__" : {
+       "body" : [
+          "__LINE__"
+       ],
+       "description" : "__LINE__",
+       "prefix" : "__LINE__"
+    },
+    "__PACKAGE__" : {
+       "body" : [
+          "__PACKAGE__"
+       ],
+       "description" : "__PACKAGE__",
+       "prefix" : "__PACKAGE__"
+    },
+    "__SUB__" : {
+       "body" : [
+          "__SUB__"
+       ],
+       "description" : "__SUB__",
+       "prefix" : "__SUB__"
+    },
+    "abs" : {
+       "body" : [
+          "abs"
+       ],
+       "description" : "abs",
+       "prefix" : "abs"
+    },
+    "abs VALUE" : {
+       "body" : [
+          "abs ${1:VALUE}"
+       ],
+       "description" : "abs VALUE",
+       "prefix" : "abs"
+    },
+    "accept NEWSOCKET,GENERICSOCKET" : {
+       "body" : [
+          "accept ${1:NEWSOCKET},${2:GENERICSOCKET}"
+       ],
+       "description" : "accept NEWSOCKET,GENERICSOCKET",
+       "prefix" : "accept"
+    },
+    "alarm" : {
+       "body" : [
+          "alarm"
+       ],
+       "description" : "alarm",
+       "prefix" : "alarm"
+    },
+    "alarm SECONDS" : {
+       "body" : [
+          "alarm ${1:SECONDS}"
+       ],
+       "description" : "alarm SECONDS",
+       "prefix" : "alarm"
+    },
+    "atan2 Y,X" : {
+       "body" : [
+          "atan2 ${1:Y},${2:X}"
+       ],
+       "description" : "atan2 Y,X",
+       "prefix" : "atan2"
+    },
+    "bind SOCKET,NAME" : {
+       "body" : [
+          "bind ${1:SOCKET},${2:NAME}"
+       ],
+       "description" : "bind SOCKET,NAME",
+       "prefix" : "bind"
+    },
+    "binmode FILEHANDLE" : {
+       "body" : [
+          "binmode ${1:FILEHANDLE}"
+       ],
+       "description" : "binmode FILEHANDLE",
+       "prefix" : "binmode"
+    },
+    "binmode FILEHANDLE,LAYER" : {
+       "body" : [
+          "binmode ${1:FILEHANDLE},${2:LAYER}"
+       ],
+       "description" : "binmode FILEHANDLE,LAYER",
+       "prefix" : "binmode"
+    },
+    "bless REF" : {
+       "body" : [
+          "bless ${1:REF}"
+       ],
+       "description" : "bless REF",
+       "prefix" : "bless"
+    },
+    "bless REF,CLASSNAME" : {
+       "body" : [
+          "bless ${1:REF},${2:CLASSNAME}"
+       ],
+       "description" : "bless REF,CLASSNAME",
+       "prefix" : "bless"
+    },
+    "break" : {
+       "body" : [
+          "break"
+       ],
+       "description" : "break",
+       "prefix" : "break"
+    },
+    "caller" : {
+       "body" : [
+          "caller"
+       ],
+       "description" : "caller",
+       "prefix" : "caller"
+    },
+    "caller EXPR" : {
+       "body" : [
+          "caller ${1:EXPR}"
+       ],
+       "description" : "caller EXPR",
+       "prefix" : "caller"
+    },
+    "chdir" : {
+       "body" : [
+          "chdir"
+       ],
+       "description" : "chdir",
+       "prefix" : "chdir"
+    },
+    "chdir DIRHANDLE" : {
+       "body" : [
+          "chdir ${1:DIRHANDLE}"
+       ],
+       "description" : "chdir DIRHANDLE",
+       "prefix" : "chdir"
+    },
+    "chdir EXPR" : {
+       "body" : [
+          "chdir ${1:EXPR}"
+       ],
+       "description" : "chdir EXPR",
+       "prefix" : "chdir"
+    },
+    "chdir FILEHANDLE" : {
+       "body" : [
+          "chdir ${1:FILEHANDLE}"
+       ],
+       "description" : "chdir FILEHANDLE",
+       "prefix" : "chdir"
+    },
+    "chmod LIST" : {
+       "body" : [
+          "chmod ${1:LIST}"
+       ],
+       "description" : "chmod LIST",
+       "prefix" : "chmod"
+    },
+    "chomp" : {
+       "body" : [
+          "chomp"
+       ],
+       "description" : "chomp",
+       "prefix" : "chomp"
+    },
+    "chomp VARIABLE" : {
+       "body" : [
+          "chomp ${1:VARIABLE}"
+       ],
+       "description" : "chomp VARIABLE",
+       "prefix" : "chomp"
+    },
+    "chomp( LIST )" : {
+       "body" : [
+          "chomp( ${1:LIST} )"
+       ],
+       "description" : "chomp( LIST )",
+       "prefix" : "chomp"
+    },
+    "chop" : {
+       "body" : [
+          "chop"
+       ],
+       "description" : "chop",
+       "prefix" : "chop"
+    },
+    "chop VARIABLE" : {
+       "body" : [
+          "chop ${1:VARIABLE}"
+       ],
+       "description" : "chop VARIABLE",
+       "prefix" : "chop"
+    },
+    "chop( LIST )" : {
+       "body" : [
+          "chop( ${1:LIST} )"
+       ],
+       "description" : "chop( LIST )",
+       "prefix" : "chop"
+    },
+    "chown LIST" : {
+       "body" : [
+          "chown ${1:LIST}"
+       ],
+       "description" : "chown LIST",
+       "prefix" : "chown"
+    },
+    "chr" : {
+       "body" : [
+          "chr"
+       ],
+       "description" : "chr",
+       "prefix" : "chr"
+    },
+    "chr NUMBER" : {
+       "body" : [
+          "chr ${1:NUMBER}"
+       ],
+       "description" : "chr NUMBER",
+       "prefix" : "chr"
+    },
+    "chroot" : {
+       "body" : [
+          "chroot"
+       ],
+       "description" : "chroot",
+       "prefix" : "chroot"
+    },
+    "chroot FILENAME" : {
+       "body" : [
+          "chroot ${1:FILENAME}"
+       ],
+       "description" : "chroot FILENAME",
+       "prefix" : "chroot"
+    },
+    "close" : {
+       "body" : [
+          "close"
+       ],
+       "description" : "close",
+       "prefix" : "close"
+    },
+    "close FILEHANDLE" : {
+       "body" : [
+          "close ${1:FILEHANDLE}"
+       ],
+       "description" : "close FILEHANDLE",
+       "prefix" : "close"
+    },
+    "closedir DIRHANDLE" : {
+       "body" : [
+          "closedir ${1:DIRHANDLE}"
+       ],
+       "description" : "closedir DIRHANDLE",
+       "prefix" : "closedir"
+    },
+    "connect SOCKET,NAME" : {
+       "body" : [
+          "connect ${1:SOCKET},${2:NAME}"
+       ],
+       "description" : "connect SOCKET,NAME",
+       "prefix" : "connect"
+    },
+    "continue" : {
+       "body" : [
+          "continue"
+       ],
+       "description" : "continue",
+       "prefix" : "continue"
+    },
+    "continue BLOCK" : {
+       "body" : [
+          "continue ${1:BLOCK}"
+       ],
+       "description" : "continue BLOCK",
+       "prefix" : "continue"
+    },
+    "cos" : {
+       "body" : [
+          "cos"
+       ],
+       "description" : "cos",
+       "prefix" : "cos"
+    },
+    "cos EXPR" : {
+       "body" : [
+          "cos ${1:EXPR}"
+       ],
+       "description" : "cos EXPR",
+       "prefix" : "cos"
+    },
+    "crypt PLAINTEXT,SALT" : {
+       "body" : [
+          "crypt ${1:PLAINTEXT},${2:SALT}"
+       ],
+       "description" : "crypt PLAINTEXT,SALT",
+       "prefix" : "crypt"
+    },
+    "dbmclose HASH" : {
+       "body" : [
+          "dbmclose ${1:HASH}"
+       ],
+       "description" : "dbmclose HASH",
+       "prefix" : "dbmclose"
+    },
+    "dbmopen HASH,DBNAME,MASK" : {
+       "body" : [
+          "dbmopen ${1:HASH},${2:DBNAME},${3:MASK}"
+       ],
+       "description" : "dbmopen HASH,DBNAME,MASK",
+       "prefix" : "dbmopen"
+    },
+    "defined" : {
+       "body" : [
+          "defined"
+       ],
+       "description" : "defined",
+       "prefix" : "defined"
+    },
+    "defined EXPR" : {
+       "body" : [
+          "defined ${1:EXPR}"
+       ],
+       "description" : "defined EXPR",
+       "prefix" : "defined"
+    },
+    "defined EXPR ? EXPR : EXPR" : {
+       "body" : [
+          "defined ${1:EXPR} ? ${2:EXPR} : ${3:EXPR}"
+       ],
+       "description" : "defined EXPR ? EXPR : EXPR",
+       "prefix" : "defined or"
+    },
+    "delete EXPR" : {
+       "body" : [
+          "delete ${1:EXPR}"
+       ],
+       "description" : "delete EXPR",
+       "prefix" : "delete"
+    },
+    "die LIST" : {
+       "body" : [
+          "die ${1:LIST}"
+       ],
+       "description" : "die LIST",
+       "prefix" : "die"
+    },
+    "do BLOCK" : {
+       "body" : [
+          "do ${1:BLOCK}"
+       ],
+       "description" : "do BLOCK",
+       "prefix" : "do"
+    },
+    "do BLOCK until EXPR" : {
+       "body" : [
+          "do {\n\t${1:BLOCK}\n}\nuntil ${2:EXPR};"
+       ],
+       "description" : "do BLOCK until EXPR",
+       "prefix" : "do until"
+    },
+    "do BLOCK while EXPR" : {
+       "body" : [
+          "do {\n\t${1:BLOCK}\n}\nwhile ${2:EXPR};"
+       ],
+       "description" : "do BLOCK while EXPR",
+       "prefix" : "do while"
+    },
+    "do EXPR" : {
+       "body" : [
+          "do ${1:EXPR}"
+       ],
+       "description" : "do EXPR",
+       "prefix" : "do"
+    },
+    "dump" : {
+       "body" : [
+          "dump"
+       ],
+       "description" : "dump",
+       "prefix" : "dump"
+    },
+    "dump EXPR" : {
+       "body" : [
+          "dump ${1:EXPR}"
+       ],
+       "description" : "dump EXPR",
+       "prefix" : "dump"
+    },
+    "dump LABEL" : {
+       "body" : [
+          "dump ${1:LABEL}"
+       ],
+       "description" : "dump LABEL",
+       "prefix" : "dump"
+    },
+    "each ARRAY" : {
+       "body" : [
+          "each ${1:ARRAY}"
+       ],
+       "description" : "each ARRAY",
+       "prefix" : "each"
+    },
+    "each HASH" : {
+       "body" : [
+          "each ${1:HASH}"
+       ],
+       "description" : "each HASH",
+       "prefix" : "each"
+    },
+    "else BLOCK" : {
+       "body" : [
+          "else {\n\t${1:BLOCK}\n}"
+       ],
+       "description" : "else BLOCK",
+       "prefix" : "else"
+    },
+    "elsif (EXPR) BLOCK" : {
+       "body" : [
+          "elsif (${1:EXPR}) {\n\t${2:BLOCK}\n}"
+       ],
+       "description" : "elsif (EXPR) BLOCK",
+       "prefix" : "elsif"
+    },
+    "endgrent" : {
+       "body" : [
+          "endgrent"
+       ],
+       "description" : "endgrent",
+       "prefix" : "endgrent"
+    },
+    "endhostent" : {
+       "body" : [
+          "endhostent"
+       ],
+       "description" : "endhostent",
+       "prefix" : "endhostent"
+    },
+    "endnetent" : {
+       "body" : [
+          "endnetent"
+       ],
+       "description" : "endnetent",
+       "prefix" : "endnetent"
+    },
+    "endprotoent" : {
+       "body" : [
+          "endprotoent"
+       ],
+       "description" : "endprotoent",
+       "prefix" : "endprotoent"
+    },
+    "endpwent" : {
+       "body" : [
+          "endpwent"
+       ],
+       "description" : "endpwent",
+       "prefix" : "endpwent"
+    },
+    "endservent" : {
+       "body" : [
+          "endservent"
+       ],
+       "description" : "endservent",
+       "prefix" : "endservent"
+    },
+    "eof" : {
+       "body" : [
+          "eof"
+       ],
+       "description" : "eof",
+       "prefix" : "eof"
+    },
+    "eof ()" : {
+       "body" : [
+          "eof ()"
+       ],
+       "description" : "eof ()",
+       "prefix" : "eof"
+    },
+    "eof FILEHANDLE" : {
+       "body" : [
+          "eof ${1:FILEHANDLE}"
+       ],
+       "description" : "eof FILEHANDLE",
+       "prefix" : "eof"
+    },
+    "eval" : {
+       "body" : [
+          "eval"
+       ],
+       "description" : "eval",
+       "prefix" : "eval"
+    },
+    "eval BLOCK" : {
+       "body" : [
+          "eval ${1:BLOCK}"
+       ],
+       "description" : "eval BLOCK",
+       "prefix" : "eval"
+    },
+    "eval EXPR" : {
+       "body" : [
+          "eval ${1:EXPR}"
+       ],
+       "description" : "eval EXPR",
+       "prefix" : "eval"
+    },
+    "evalbytes" : {
+       "body" : [
+          "evalbytes"
+       ],
+       "description" : "evalbytes",
+       "prefix" : "evalbytes"
+    },
+    "evalbytes EXPR" : {
+       "body" : [
+          "evalbytes ${1:EXPR}"
+       ],
+       "description" : "evalbytes EXPR",
+       "prefix" : "evalbytes"
+    },
+    "exec LIST" : {
+       "body" : [
+          "exec ${1:LIST}"
+       ],
+       "description" : "exec LIST",
+       "prefix" : "exec"
+    },
+    "exec PROGRAM LIST" : {
+       "body" : [
+          "exec ${1:PROGRAM} ${2:LIST}"
+       ],
+       "description" : "exec PROGRAM LIST",
+       "prefix" : "exec"
+    },
+    "exists EXPR" : {
+       "body" : [
+          "exists ${1:EXPR}"
+       ],
+       "description" : "exists EXPR",
+       "prefix" : "exists"
+    },
+    "exit" : {
+       "body" : [
+          "exit"
+       ],
+       "description" : "exit",
+       "prefix" : "exit"
+    },
+    "exit EXPR" : {
+       "body" : [
+          "exit ${1:EXPR}"
+       ],
+       "description" : "exit EXPR",
+       "prefix" : "exit"
+    },
+    "exp" : {
+       "body" : [
+          "exp"
+       ],
+       "description" : "exp",
+       "prefix" : "exp"
+    },
+    "exp EXPR" : {
+       "body" : [
+          "exp ${1:EXPR}"
+       ],
+       "description" : "exp EXPR",
+       "prefix" : "exp"
+    },
+    "fc" : {
+       "body" : [
+          "fc"
+       ],
+       "description" : "fc",
+       "prefix" : "fc"
+    },
+    "fc EXPR" : {
+       "body" : [
+          "fc ${1:EXPR}"
+       ],
+       "description" : "fc EXPR",
+       "prefix" : "fc"
+    },
+    "fcntl FILEHANDLE,FUNCTION,SCALAR" : {
+       "body" : [
+          "fcntl ${1:FILEHANDLE},${2:FUNCTION},${3:SCALAR}"
+       ],
+       "description" : "fcntl FILEHANDLE,FUNCTION,SCALAR",
+       "prefix" : "fcntl"
+    },
+    "fileno DIRHANDLE" : {
+       "body" : [
+          "fileno ${1:DIRHANDLE}"
+       ],
+       "description" : "fileno DIRHANDLE",
+       "prefix" : "fileno"
+    },
+    "fileno FILEHANDLE" : {
+       "body" : [
+          "fileno ${1:FILEHANDLE}"
+       ],
+       "description" : "fileno FILEHANDLE",
+       "prefix" : "fileno"
+    },
+    "flock FILEHANDLE,OPERATION" : {
+       "body" : [
+          "flock ${1:FILEHANDLE},${2:OPERATION}"
+       ],
+       "description" : "flock FILEHANDLE,OPERATION",
+       "prefix" : "flock"
+    },
+    "for (EXPR; EXPR; EXPR) BLOCK" : {
+       "body" : [
+          "for (${1:EXPR}; ${2:EXPR}; ${3:EXPR}) {\n\t${4:BLOCK}\n}"
+       ],
+       "description" : "for (EXPR; EXPR; EXPR) BLOCK",
+       "prefix" : "for"
+    },
+    "for VAR (LIST) BLOCK" : {
+       "body" : [
+          "for ${1:VAR} (${2:LIST}) {\n\t${3:BLOCK}\n}"
+       ],
+       "description" : "for VAR (LIST) BLOCK",
+       "prefix" : "for"
+    },
+    "for VAR (LIST) BLOCK continue BLOCK" : {
+       "body" : [
+          "for ${1:VAR} (${2:LIST}) {\n\t${3:BLOCK}\n}\ncontinue {\n\t${4:BLOCK\n}"
+       ],
+       "description" : "for VAR (LIST) BLOCK continue BLOCK",
+       "prefix" : "for continue"
+    },
+    "foreach (EXPR; EXPR; EXPR) BLOCK" : {
+       "body" : [
+          "foreach (${1:EXPR}; ${2:EXPR}; ${3:EXPR}) {\n\t${4:BLOCK}\n}"
+       ],
+       "description" : "foreach (EXPR; EXPR; EXPR) BLOCK",
+       "prefix" : "foreach"
+    },
+    "foreach VAR (LIST) BLOCK" : {
+       "body" : [
+          "foreach ${1:VAR} (${2:LIST}) {\n\t${3:BLOCK}\n}"
+       ],
+       "description" : "foreach VAR (LIST) BLOCK",
+       "prefix" : "foreach"
+    },
+    "foreach VAR (LIST) BLOCK continue BLOCK" : {
+       "body" : [
+          "foreach ${1:VAR} (${2:LIST}) {\n\t${3:BLOCK}\n}\ncontinue {\n\t${4:BLOCK\n}"
+       ],
+       "description" : "foreach VAR (LIST) BLOCK continue BLOCK",
+       "prefix" : "foreach continue"
+    },
+    "fork" : {
+       "body" : [
+          "fork"
+       ],
+       "description" : "fork",
+       "prefix" : "fork"
+    },
+    "format" : {
+       "body" : [
+          "format"
+       ],
+       "description" : "format",
+       "prefix" : "format"
+    },
+    "formline PICTURE,LIST" : {
+       "body" : [
+          "formline ${1:PICTURE},${2:LIST}"
+       ],
+       "description" : "formline PICTURE,LIST",
+       "prefix" : "formline"
+    },
+    "getc" : {
+       "body" : [
+          "getc"
+       ],
+       "description" : "getc",
+       "prefix" : "getc"
+    },
+    "getc FILEHANDLE" : {
+       "body" : [
+          "getc ${1:FILEHANDLE}"
+       ],
+       "description" : "getc FILEHANDLE",
+       "prefix" : "getc"
+    },
+    "getgrent" : {
+       "body" : [
+          "getgrent"
+       ],
+       "description" : "getgrent",
+       "prefix" : "getgrent"
+    },
+    "getgrgid GID" : {
+       "body" : [
+          "getgrgid ${1:GID}"
+       ],
+       "description" : "getgrgid GID",
+       "prefix" : "getgrgid"
+    },
+    "getgrnam NAME" : {
+       "body" : [
+          "getgrnam ${1:NAME}"
+       ],
+       "description" : "getgrnam NAME",
+       "prefix" : "getgrnam"
+    },
+    "gethostbyaddr ADDR,ADDRTYPE" : {
+       "body" : [
+          "gethostbyaddr ${1:ADDR},${2:ADDRTYPE}"
+       ],
+       "description" : "gethostbyaddr ADDR,ADDRTYPE",
+       "prefix" : "gethostbyaddr"
+    },
+    "gethostbyname NAME" : {
+       "body" : [
+          "gethostbyname ${1:NAME}"
+       ],
+       "description" : "gethostbyname NAME",
+       "prefix" : "gethostbyname"
+    },
+    "gethostent" : {
+       "body" : [
+          "gethostent"
+       ],
+       "description" : "gethostent",
+       "prefix" : "gethostent"
+    },
+    "getlogin" : {
+       "body" : [
+          "getlogin"
+       ],
+       "description" : "getlogin",
+       "prefix" : "getlogin"
+    },
+    "getnetbyaddr ADDR,ADDRTYPE" : {
+       "body" : [
+          "getnetbyaddr ${1:ADDR},${2:ADDRTYPE}"
+       ],
+       "description" : "getnetbyaddr ADDR,ADDRTYPE",
+       "prefix" : "getnetbyaddr"
+    },
+    "getnetbyname NAME" : {
+       "body" : [
+          "getnetbyname ${1:NAME}"
+       ],
+       "description" : "getnetbyname NAME",
+       "prefix" : "getnetbyname"
+    },
+    "getnetent" : {
+       "body" : [
+          "getnetent"
+       ],
+       "description" : "getnetent",
+       "prefix" : "getnetent"
+    },
+    "getpeername SOCKET" : {
+       "body" : [
+          "getpeername ${1:SOCKET}"
+       ],
+       "description" : "getpeername SOCKET",
+       "prefix" : "getpeername"
+    },
+    "getpgrp PID" : {
+       "body" : [
+          "getpgrp ${1:PID}"
+       ],
+       "description" : "getpgrp PID",
+       "prefix" : "getpgrp"
+    },
+    "getppid" : {
+       "body" : [
+          "getppid"
+       ],
+       "description" : "getppid",
+       "prefix" : "getppid"
+    },
+    "getpriority WHICH,WHO" : {
+       "body" : [
+          "getpriority ${1:WHICH},${2:WHO}"
+       ],
+       "description" : "getpriority WHICH,WHO",
+       "prefix" : "getpriority"
+    },
+    "getprotobyname NAME" : {
+       "body" : [
+          "getprotobyname ${1:NAME}"
+       ],
+       "description" : "getprotobyname NAME",
+       "prefix" : "getprotobyname"
+    },
+    "getprotobynumber NUMBER" : {
+       "body" : [
+          "getprotobynumber ${1:NUMBER}"
+       ],
+       "description" : "getprotobynumber NUMBER",
+       "prefix" : "getprotobynumber"
+    },
+    "getprotoent" : {
+       "body" : [
+          "getprotoent"
+       ],
+       "description" : "getprotoent",
+       "prefix" : "getprotoent"
+    },
+    "getpwent" : {
+       "body" : [
+          "getpwent"
+       ],
+       "description" : "getpwent",
+       "prefix" : "getpwent"
+    },
+    "getpwnam NAME" : {
+       "body" : [
+          "getpwnam ${1:NAME}"
+       ],
+       "description" : "getpwnam NAME",
+       "prefix" : "getpwnam"
+    },
+    "getpwuid UID" : {
+       "body" : [
+          "getpwuid ${1:UID}"
+       ],
+       "description" : "getpwuid UID",
+       "prefix" : "getpwuid"
+    },
+    "getservbyname NAME,PROTO" : {
+       "body" : [
+          "getservbyname ${1:NAME},${2:PROTO}"
+       ],
+       "description" : "getservbyname NAME,PROTO",
+       "prefix" : "getservbyname"
+    },
+    "getservbyport PORT,PROTO" : {
+       "body" : [
+          "getservbyport ${1:PORT},${2:PROTO}"
+       ],
+       "description" : "getservbyport PORT,PROTO",
+       "prefix" : "getservbyport"
+    },
+    "getservent" : {
+       "body" : [
+          "getservent"
+       ],
+       "description" : "getservent",
+       "prefix" : "getservent"
+    },
+    "getsockname SOCKET" : {
+       "body" : [
+          "getsockname ${1:SOCKET}"
+       ],
+       "description" : "getsockname SOCKET",
+       "prefix" : "getsockname"
+    },
+    "getsockopt SOCKET,LEVEL,OPTNAME" : {
+       "body" : [
+          "getsockopt ${1:SOCKET},${2:LEVEL},${3:OPTNAME}"
+       ],
+       "description" : "getsockopt SOCKET,LEVEL,OPTNAME",
+       "prefix" : "getsockopt"
+    },
+    "given (EXPR) BLOCK" : {
+       "body" : [
+          "given (${1:EXPR}) {\n\t${2:BLOCK}\n}"
+       ],
+       "description" : "given (EXPR) BLOCK",
+       "prefix" : "given"
+    },
+    "glob" : {
+       "body" : [
+          "glob"
+       ],
+       "description" : "glob",
+       "prefix" : "glob"
+    },
+    "glob EXPR" : {
+       "body" : [
+          "glob ${1:EXPR}"
+       ],
+       "description" : "glob EXPR",
+       "prefix" : "glob"
+    },
+    "gmtime" : {
+       "body" : [
+          "gmtime"
+       ],
+       "description" : "gmtime",
+       "prefix" : "gmtime"
+    },
+    "gmtime EXPR" : {
+       "body" : [
+          "gmtime ${1:EXPR}"
+       ],
+       "description" : "gmtime EXPR",
+       "prefix" : "gmtime"
+    },
+    "goto &NAME" : {
+       "body" : [
+          "goto &${1:NAME}"
+       ],
+       "description" : "goto &NAME",
+       "prefix" : "goto"
+    },
+    "goto EXPR" : {
+       "body" : [
+          "goto ${1:EXPR}"
+       ],
+       "description" : "goto EXPR",
+       "prefix" : "goto"
+    },
+    "goto LABEL" : {
+       "body" : [
+          "goto ${1:LABEL}"
+       ],
+       "description" : "goto LABEL",
+       "prefix" : "goto"
+    },
+    "grep BLOCK LIST" : {
+       "body" : [
+          "grep ${1:BLOCK} ${2:LIST}"
+       ],
+       "description" : "grep BLOCK LIST",
+       "prefix" : "grep"
+    },
+    "grep EXPR,LIST" : {
+       "body" : [
+          "grep ${1:EXPR},${2:LIST}"
+       ],
+       "description" : "grep EXPR,LIST",
+       "prefix" : "grep"
+    },
+    "hex" : {
+       "body" : [
+          "hex"
+       ],
+       "description" : "hex",
+       "prefix" : "hex"
+    },
+    "hex EXPR" : {
+       "body" : [
+          "hex ${1:EXPR}"
+       ],
+       "description" : "hex EXPR",
+       "prefix" : "hex"
+    },
+    "if (EXPR) BLOCK" : {
+       "body" : [
+          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}"
+       ],
+       "description" : "if (EXPR) BLOCK",
+       "prefix" : "if"
+    },
+    "if (EXPR) BLOCK else BLOCK" : {
+       "body" : [
+          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelse {\n\t${3:BLOCK\n}"
+       ],
+       "description" : "if (EXPR) BLOCK else BLOCK",
+       "prefix" : "if else"
+    },
+    "if (EXPR) BLOCK elsif (EXPR) BLOCK" : {
+       "body" : [
+          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK\n}"
+       ],
+       "description" : "if (EXPR) BLOCK elsif (EXPR) BLOCK",
+       "prefix" : "if elsif"
+    },
+    "if (EXPR) BLOCK elsif (EXPR) BLOCK else BLOCK" : {
+       "body" : [
+          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK}\n}\nelse{\n\t${4:BLOCK}\n}"
+       ],
+       "description" : "if (EXPR) BLOCK elsif (EXPR) BLOCK else BLOCK",
+       "prefix" : "if elsif else"
+    },
+    "import LIST" : {
+       "body" : [
+          "import ${1:LIST}"
+       ],
+       "description" : "import LIST",
+       "prefix" : "import"
+    },
+    "index STR,SUBSTR" : {
+       "body" : [
+          "index ${1:STR},${2:SUBSTR}"
+       ],
+       "description" : "index STR,SUBSTR",
+       "prefix" : "index"
+    },
+    "index STR,SUBSTR,POSITION" : {
+       "body" : [
+          "index ${1:STR},${2:SUBSTR},${3:POSITION}"
+       ],
+       "description" : "index STR,SUBSTR,POSITION",
+       "prefix" : "index"
+    },
+    "int" : {
+       "body" : [
+          "int"
+       ],
+       "description" : "int",
+       "prefix" : "int"
+    },
+    "int EXPR" : {
+       "body" : [
+          "int ${1:EXPR}"
+       ],
+       "description" : "int EXPR",
+       "prefix" : "int"
+    },
+    "ioctl FILEHANDLE,FUNCTION,SCALAR" : {
+       "body" : [
+          "ioctl ${1:FILEHANDLE},${2:FUNCTION},${3:SCALAR}"
+       ],
+       "description" : "ioctl FILEHANDLE,FUNCTION,SCALAR",
+       "prefix" : "ioctl"
+    },
+    "join EXPR,LIST" : {
+       "body" : [
+          "join ${1:EXPR},${2:LIST}"
+       ],
+       "description" : "join EXPR,LIST",
+       "prefix" : "join"
+    },
+    "keys ARRAY" : {
+       "body" : [
+          "keys ${1:ARRAY}"
+       ],
+       "description" : "keys ARRAY",
+       "prefix" : "keys"
+    },
+    "keys HASH" : {
+       "body" : [
+          "keys ${1:HASH}"
+       ],
+       "description" : "keys HASH",
+       "prefix" : "keys"
+    },
+    "kill SIGNAL" : {
+       "body" : [
+          "kill ${1:SIGNAL}"
+       ],
+       "description" : "kill SIGNAL",
+       "prefix" : "kill"
+    },
+    "kill SIGNAL,LIST" : {
+       "body" : [
+          "kill ${1:SIGNAL},${2:LIST}"
+       ],
+       "description" : "kill SIGNAL,LIST",
+       "prefix" : "kill"
+    },
+    "last" : {
+       "body" : [
+          "last"
+       ],
+       "description" : "last",
+       "prefix" : "last"
+    },
+    "last EXPR" : {
+       "body" : [
+          "last ${1:EXPR}"
+       ],
+       "description" : "last EXPR",
+       "prefix" : "last"
+    },
+    "last LABEL" : {
+       "body" : [
+          "last ${1:LABEL}"
+       ],
+       "description" : "last LABEL",
+       "prefix" : "last"
+    },
+    "lc" : {
+       "body" : [
+          "lc"
+       ],
+       "description" : "lc",
+       "prefix" : "lc"
+    },
+    "lc EXPR" : {
+       "body" : [
+          "lc ${1:EXPR}"
+       ],
+       "description" : "lc EXPR",
+       "prefix" : "lc"
+    },
+    "lcfirst" : {
+       "body" : [
+          "lcfirst"
+       ],
+       "description" : "lcfirst",
+       "prefix" : "lcfirst"
+    },
+    "lcfirst EXPR" : {
+       "body" : [
+          "lcfirst ${1:EXPR}"
+       ],
+       "description" : "lcfirst EXPR",
+       "prefix" : "lcfirst"
+    },
+    "length" : {
+       "body" : [
+          "length"
+       ],
+       "description" : "length",
+       "prefix" : "length"
+    },
+    "length EXPR" : {
+       "body" : [
+          "length ${1:EXPR}"
+       ],
+       "description" : "length EXPR",
+       "prefix" : "length"
+    },
+    "link OLDFILE,NEWFILE" : {
+       "body" : [
+          "link ${1:OLDFILE},${2:NEWFILE}"
+       ],
+       "description" : "link OLDFILE,NEWFILE",
+       "prefix" : "link"
+    },
+    "listen SOCKET,QUEUESIZE" : {
+       "body" : [
+          "listen ${1:SOCKET},${2:QUEUESIZE}"
+       ],
+       "description" : "listen SOCKET,QUEUESIZE",
+       "prefix" : "listen"
+    },
+    "local EXPR" : {
+       "body" : [
+          "local ${1:EXPR}"
+       ],
+       "description" : "local EXPR",
+       "prefix" : "local"
+    },
+    "localtime" : {
+       "body" : [
+          "localtime"
+       ],
+       "description" : "localtime",
+       "prefix" : "localtime"
+    },
+    "localtime EXPR" : {
+       "body" : [
+          "localtime ${1:EXPR}"
+       ],
+       "description" : "localtime EXPR",
+       "prefix" : "localtime"
+    },
+    "lock THING" : {
+       "body" : [
+          "lock ${1:THING}"
+       ],
+       "description" : "lock THING",
+       "prefix" : "lock"
+    },
+    "log" : {
+       "body" : [
+          "log"
+       ],
+       "description" : "log",
+       "prefix" : "log"
+    },
+    "log EXPR" : {
+       "body" : [
+          "log ${1:EXPR}"
+       ],
+       "description" : "log EXPR",
+       "prefix" : "log"
+    },
+    "lstat" : {
+       "body" : [
+          "lstat"
+       ],
+       "description" : "lstat",
+       "prefix" : "lstat"
+    },
+    "lstat DIRHANDLE" : {
+       "body" : [
+          "lstat ${1:DIRHANDLE}"
+       ],
+       "description" : "lstat DIRHANDLE",
+       "prefix" : "lstat"
+    },
+    "lstat EXPR" : {
+       "body" : [
+          "lstat ${1:EXPR}"
+       ],
+       "description" : "lstat EXPR",
+       "prefix" : "lstat"
+    },
+    "lstat FILEHANDLE" : {
+       "body" : [
+          "lstat ${1:FILEHANDLE}"
+       ],
+       "description" : "lstat FILEHANDLE",
+       "prefix" : "lstat"
+    },
+    "m//" : {
+       "body" : [
+          "m//"
+       ],
+       "description" : "m//",
+       "prefix" : "m"
+    },
+    "map BLOCK LIST" : {
+       "body" : [
+          "map ${1:BLOCK} ${2:LIST}"
+       ],
+       "description" : "map BLOCK LIST",
+       "prefix" : "map"
+    },
+    "map EXPR grep EXPR LIST" : {
+       "body" : [
+          "map { ${1:EXPR} } grep { ${2:EXPR} } @${3:LIST}"
+       ],
+       "description" : "map EXPR grep EXPR LIST",
+       "prefix" : "map grep"
+    },
+    "map EXPR,LIST" : {
+       "body" : [
+          "map ${1:EXPR},${2:LIST}"
+       ],
+       "description" : "map EXPR,LIST",
+       "prefix" : "map"
+    },
+    "mkdir" : {
+       "body" : [
+          "mkdir"
+       ],
+       "description" : "mkdir",
+       "prefix" : "mkdir"
+    },
+    "mkdir FILENAME" : {
+       "body" : [
+          "mkdir ${1:FILENAME}"
+       ],
+       "description" : "mkdir FILENAME",
+       "prefix" : "mkdir"
+    },
+    "mkdir FILENAME,MODE" : {
+       "body" : [
+          "mkdir ${1:FILENAME},${2:MODE}"
+       ],
+       "description" : "mkdir FILENAME,MODE",
+       "prefix" : "mkdir"
+    },
+    "module boilerplate" : {
+       "body" : [
+          "package ${1:MODULE};",
+          "",
+          "use strict;",
+          "use warnings;",
+          "use 5.008_005;",
+          "our $VERSION = '0.01';",
+          "",
+          "sub new {",
+          "\tmy($class, %args) = @_;",
+          "\tmy $self = bless({}, $class);",
+          "\treturn $self;",
+          "}",
+          "",
+          "1;",
+          "__END__",
+          "",
+          "=encoding utf-8",
+          "",
+          "=head1 NAME",
+          "",
+          "${2:MODULE} - Blah blah blah",
+          "",
+          "=head1 SYNOPSIS",
+          "",
+          "  use ${3:MODULE};",
+          "",
+          "=head1 DESCRIPTION",
+          "",
+          "${4:MODULE} is ...",
+          "",
+          "=head2 Methods",
+          " ",
+          "=head3 new",
+          "",
+          "I<new> does ...",
+          "",
+          "=head1 AUTHOR",
+          "",
+          "${5:AUTHOR} E<lt>${6:AUTHOREMAIL}E<gt>",
+          "",
+          "=head1 CONTRIBUTORS",
+          "",
+          "${7:CONTRIBUTOR} E<lt>${8:CONTRIBUTOREMAIL}E<gt>",
+          "",
+          "=head1 COPYRIGHT",
+          "",
+          "Copyright 2021- ${9:AUTHOR}",
+          "",
+          "=head1 LICENSE",
+          "",
+          "This library is free software; you can redistribute it and/or modify",
+          "it under the same terms as Perl itself.",
+          "",
+          "=head1 SEE ALSO",
+          "",
+          "L<${10:MODULE}>",
+          "",
+          "=cut",
+          ""
+       ],
+       "description" : "module boilerplate",
+       "prefix" : "init module"
+    },
+    "msgctl ID,CMD,ARG" : {
+       "body" : [
+          "msgctl ${1:ID},${2:CMD},${3:ARG}"
+       ],
+       "description" : "msgctl ID,CMD,ARG",
+       "prefix" : "msgctl"
+    },
+    "msgget KEY,FLAGS" : {
+       "body" : [
+          "msgget ${1:KEY},${2:FLAGS}"
+       ],
+       "description" : "msgget KEY,FLAGS",
+       "prefix" : "msgget"
+    },
+    "msgrcv ID,VAR,SIZE,TYPE,FLAGS" : {
+       "body" : [
+          "msgrcv ${1:ID},${2:VAR},${3:SIZE},${4:TYPE},${5:FLAGS}"
+       ],
+       "description" : "msgrcv ID,VAR,SIZE,TYPE,FLAGS",
+       "prefix" : "msgrcv"
+    },
+    "msgsnd ID,MSG,FLAGS" : {
+       "body" : [
+          "msgsnd ${1:ID},${2:MSG},${3:FLAGS}"
+       ],
+       "description" : "msgsnd ID,MSG,FLAGS",
+       "prefix" : "msgsnd"
+    },
+    "my TYPE VARLIST" : {
+       "body" : [
+          "my ${1:TYPE} ${2:VARLIST}"
+       ],
+       "description" : "my TYPE VARLIST",
+       "prefix" : "my"
+    },
+    "my TYPE VARLIST : ATTRS" : {
+       "body" : [
+          "my ${1:TYPE} ${2:VARLIST} : ${3:ATTRS}"
+       ],
+       "description" : "my TYPE VARLIST : ATTRS",
+       "prefix" : "my"
+    },
+    "my VARLIST" : {
+       "body" : [
+          "my ${1:VARLIST}"
+       ],
+       "description" : "my VARLIST",
+       "prefix" : "my"
+    },
+    "my VARLIST : ATTRS" : {
+       "body" : [
+          "my ${1:VARLIST} : ${2:ATTRS}"
+       ],
+       "description" : "my VARLIST : ATTRS",
+       "prefix" : "my"
+    },
+    "next" : {
+       "body" : [
+          "next"
+       ],
+       "description" : "next",
+       "prefix" : "next"
+    },
+    "next EXPR" : {
+       "body" : [
+          "next ${1:EXPR}"
+       ],
+       "description" : "next EXPR",
+       "prefix" : "next"
+    },
+    "next LABEL" : {
+       "body" : [
+          "next ${1:LABEL}"
+       ],
+       "description" : "next LABEL",
+       "prefix" : "next"
+    },
+    "no MODULE" : {
+       "body" : [
+          "no ${1:MODULE}"
+       ],
+       "description" : "no MODULE",
+       "prefix" : "no"
+    },
+    "no MODULE LIST" : {
+       "body" : [
+          "no ${1:MODULE} ${2:LIST}"
+       ],
+       "description" : "no MODULE LIST",
+       "prefix" : "no"
+    },
+    "no MODULE VERSION" : {
+       "body" : [
+          "no ${1:MODULE} ${2:VERSION}"
+       ],
+       "description" : "no MODULE VERSION",
+       "prefix" : "no"
+    },
+    "no MODULE VERSION LIST" : {
+       "body" : [
+          "no ${1:MODULE} ${2:VERSION} ${3:LIST}"
+       ],
+       "description" : "no MODULE VERSION LIST",
+       "prefix" : "no"
+    },
+    "no VERSION" : {
+       "body" : [
+          "no ${1:VERSION}"
+       ],
+       "description" : "no VERSION",
+       "prefix" : "no"
+    },
+    "oct" : {
+       "body" : [
+          "oct"
+       ],
+       "description" : "oct",
+       "prefix" : "oct"
+    },
+    "oct EXPR" : {
+       "body" : [
+          "oct ${1:EXPR}"
+       ],
+       "description" : "oct EXPR",
+       "prefix" : "oct"
+    },
+    "open FILEHANDLE" : {
+       "body" : [
+          "open ${1:FILEHANDLE}"
+       ],
+       "description" : "open FILEHANDLE",
+       "prefix" : "open"
+    },
+    "open FILEHANDLE,EXPR" : {
+       "body" : [
+          "open ${1:FILEHANDLE},${2:EXPR}"
+       ],
+       "description" : "open FILEHANDLE,EXPR",
+       "prefix" : "open"
+    },
+    "open FILEHANDLE,MODE,EXPR" : {
+       "body" : [
+          "open ${1:FILEHANDLE},${2:MODE},${3:EXPR}"
+       ],
+       "description" : "open FILEHANDLE,MODE,EXPR",
+       "prefix" : "open"
+    },
+    "open FILEHANDLE,MODE,EXPR,LIST" : {
+       "body" : [
+          "open ${1:FILEHANDLE},${2:MODE},${3:EXPR},${4:LIST}"
+       ],
+       "description" : "open FILEHANDLE,MODE,EXPR,LIST",
+       "prefix" : "open"
+    },
+    "open FILEHANDLE,MODE,REFERENCE" : {
+       "body" : [
+          "open ${1:FILEHANDLE},${2:MODE},${3:REFERENCE}"
+       ],
+       "description" : "open FILEHANDLE,MODE,REFERENCE",
+       "prefix" : "open"
+    },
+    "opendir DIRHANDLE,EXPR" : {
+       "body" : [
+          "opendir ${1:DIRHANDLE},${2:EXPR}"
+       ],
+       "description" : "opendir DIRHANDLE,EXPR",
+       "prefix" : "opendir"
+    },
+    "ord" : {
+       "body" : [
+          "ord"
+       ],
+       "description" : "ord",
+       "prefix" : "ord"
+    },
+    "ord EXPR" : {
+       "body" : [
+          "ord ${1:EXPR}"
+       ],
+       "description" : "ord EXPR",
+       "prefix" : "ord"
+    },
+    "our TYPE VARLIST" : {
+       "body" : [
+          "our ${1:TYPE} ${2:VARLIST}"
+       ],
+       "description" : "our TYPE VARLIST",
+       "prefix" : "our"
+    },
+    "our TYPE VARLIST : ATTRS" : {
+       "body" : [
+          "our ${1:TYPE} ${2:VARLIST} : ${3:ATTRS}"
+       ],
+       "description" : "our TYPE VARLIST : ATTRS",
+       "prefix" : "our"
+    },
+    "our VARLIST" : {
+       "body" : [
+          "our ${1:VARLIST}"
+       ],
+       "description" : "our VARLIST",
+       "prefix" : "our"
+    },
+    "our VARLIST : ATTRS" : {
+       "body" : [
+          "our ${1:VARLIST} : ${2:ATTRS}"
+       ],
+       "description" : "our VARLIST : ATTRS",
+       "prefix" : "our"
+    },
+    "pack TEMPLATE,LIST" : {
+       "body" : [
+          "pack ${1:TEMPLATE},${2:LIST}"
+       ],
+       "description" : "pack TEMPLATE,LIST",
+       "prefix" : "pack"
+    },
+    "package NAMESPACE" : {
+       "body" : [
+          "package ${1:NAMESPACE}"
+       ],
+       "description" : "package NAMESPACE",
+       "prefix" : "package"
+    },
+    "package NAMESPACE BLOCK" : {
+       "body" : [
+          "package ${1:NAMESPACE} ${2:BLOCK}"
+       ],
+       "description" : "package NAMESPACE BLOCK",
+       "prefix" : "package"
+    },
+    "package NAMESPACE VERSION" : {
+       "body" : [
+          "package ${1:NAMESPACE} ${2:VERSION}"
+       ],
+       "description" : "package NAMESPACE VERSION",
+       "prefix" : "package"
+    },
+    "package NAMESPACE VERSION BLOCK" : {
+       "body" : [
+          "package ${1:NAMESPACE} ${2:VERSION} ${3:BLOCK}"
+       ],
+       "description" : "package NAMESPACE VERSION BLOCK",
+       "prefix" : "package"
+    },
+    "pipe READHANDLE,WRITEHANDLE" : {
+       "body" : [
+          "pipe ${1:READHANDLE},${2:WRITEHANDLE}"
+       ],
+       "description" : "pipe READHANDLE,WRITEHANDLE",
+       "prefix" : "pipe"
+    },
+    "pop" : {
+       "body" : [
+          "pop"
+       ],
+       "description" : "pop",
+       "prefix" : "pop"
+    },
+    "pop ARRAY" : {
+       "body" : [
+          "pop ${1:ARRAY}"
+       ],
+       "description" : "pop ARRAY",
+       "prefix" : "pop"
+    },
+    "pos" : {
+       "body" : [
+          "pos"
+       ],
+       "description" : "pos",
+       "prefix" : "pos"
+    },
+    "pos SCALAR" : {
+       "body" : [
+          "pos ${1:SCALAR}"
+       ],
+       "description" : "pos SCALAR",
+       "prefix" : "pos"
+    },
+    "print" : {
+       "body" : [
+          "print"
+       ],
+       "description" : "print",
+       "prefix" : "print"
+    },
+    "print FILEHANDLE" : {
+       "body" : [
+          "print ${1:FILEHANDLE}"
+       ],
+       "description" : "print FILEHANDLE",
+       "prefix" : "print"
+    },
+    "print FILEHANDLE LIST" : {
+       "body" : [
+          "print ${1:FILEHANDLE} ${2:LIST}"
+       ],
+       "description" : "print FILEHANDLE LIST",
+       "prefix" : "print"
+    },
+    "print LIST" : {
+       "body" : [
+          "print ${1:LIST}"
+       ],
+       "description" : "print LIST",
+       "prefix" : "print"
+    },
+    "printf" : {
+       "body" : [
+          "printf"
+       ],
+       "description" : "printf",
+       "prefix" : "printf"
+    },
+    "printf FILEHANDLE" : {
+       "body" : [
+          "printf ${1:FILEHANDLE}"
+       ],
+       "description" : "printf FILEHANDLE",
+       "prefix" : "printf"
+    },
+    "printf FILEHANDLE FORMAT,LIST" : {
+       "body" : [
+          "printf ${1:FILEHANDLE} ${2:FORMAT},${3:LIST}"
+       ],
+       "description" : "printf FILEHANDLE FORMAT,LIST",
+       "prefix" : "printf"
+    },
+    "printf FORMAT,LIST" : {
+       "body" : [
+          "printf ${1:FORMAT},${2:LIST}"
+       ],
+       "description" : "printf FORMAT,LIST",
+       "prefix" : "printf"
+    },
+    "prototype" : {
+       "body" : [
+          "prototype"
+       ],
+       "description" : "prototype",
+       "prefix" : "prototype"
+    },
+    "prototype FUNCTION" : {
+       "body" : [
+          "prototype ${1:FUNCTION}"
+       ],
+       "description" : "prototype FUNCTION",
+       "prefix" : "prototype"
+    },
+    "push ARRAY,LIST" : {
+       "body" : [
+          "push ${1:ARRAY},${2:LIST}"
+       ],
+       "description" : "push ARRAY,LIST",
+       "prefix" : "push"
+    },
+    "q/STRING/" : {
+       "body" : [
+          "q/${1:STRING}/"
+       ],
+       "description" : "q/STRING/",
+       "prefix" : "q"
+    },
+    "qq/STRING/" : {
+       "body" : [
+          "qq/${1:STRING}/"
+       ],
+       "description" : "qq/STRING/",
+       "prefix" : "qq"
+    },
+    "qr/STRING/" : {
+       "body" : [
+          "qr/${1:STRING}/"
+       ],
+       "description" : "qr/STRING/",
+       "prefix" : "qr"
+    },
+    "quotemeta" : {
+       "body" : [
+          "quotemeta"
+       ],
+       "description" : "quotemeta",
+       "prefix" : "quotemeta"
+    },
+    "quotemeta EXPR" : {
+       "body" : [
+          "quotemeta ${1:EXPR}"
+       ],
+       "description" : "quotemeta EXPR",
+       "prefix" : "quotemeta"
+    },
+    "qw/STRING/" : {
+       "body" : [
+          "qw/${1:STRING}/"
+       ],
+       "description" : "qw/STRING/",
+       "prefix" : "qw"
+    },
+    "qx/STRING/" : {
+       "body" : [
+          "qx/${1:STRING}/"
+       ],
+       "description" : "qx/STRING/",
+       "prefix" : "qx"
+    },
+    "rand" : {
+       "body" : [
+          "rand"
+       ],
+       "description" : "rand",
+       "prefix" : "rand"
+    },
+    "rand EXPR" : {
+       "body" : [
+          "rand ${1:EXPR}"
+       ],
+       "description" : "rand EXPR",
+       "prefix" : "rand"
+    },
+    "read FILEHANDLE,SCALAR,LENGTH" : {
+       "body" : [
+          "read ${1:FILEHANDLE},${2:SCALAR},${3:LENGTH}"
+       ],
+       "description" : "read FILEHANDLE,SCALAR,LENGTH",
+       "prefix" : "read"
+    },
+    "read FILEHANDLE,SCALAR,LENGTH,OFFSET" : {
+       "body" : [
+          "read ${1:FILEHANDLE},${2:SCALAR},${3:LENGTH},${4:OFFSET}"
+       ],
+       "description" : "read FILEHANDLE,SCALAR,LENGTH,OFFSET",
+       "prefix" : "read"
+    },
+    "readdir DIRHANDLE" : {
+       "body" : [
+          "readdir ${1:DIRHANDLE}"
+       ],
+       "description" : "readdir DIRHANDLE",
+       "prefix" : "readdir"
+    },
+    "readline" : {
+       "body" : [
+          "readline"
+       ],
+       "description" : "readline",
+       "prefix" : "readline"
+    },
+    "readline EXPR" : {
+       "body" : [
+          "readline ${1:EXPR}"
+       ],
+       "description" : "readline EXPR",
+       "prefix" : "readline"
+    },
+    "readlink" : {
+       "body" : [
+          "readlink"
+       ],
+       "description" : "readlink",
+       "prefix" : "readlink"
+    },
+    "readlink EXPR" : {
+       "body" : [
+          "readlink ${1:EXPR}"
+       ],
+       "description" : "readlink EXPR",
+       "prefix" : "readlink"
+    },
+    "readpipe" : {
+       "body" : [
+          "readpipe"
+       ],
+       "description" : "readpipe",
+       "prefix" : "readpipe"
+    },
+    "readpipe EXPR" : {
+       "body" : [
+          "readpipe ${1:EXPR}"
+       ],
+       "description" : "readpipe EXPR",
+       "prefix" : "readpipe"
+    },
+    "recv SOCKET,SCALAR,LENGTH,FLAGS" : {
+       "body" : [
+          "recv ${1:SOCKET},${2:SCALAR},${3:LENGTH},${4:FLAGS}"
+       ],
+       "description" : "recv SOCKET,SCALAR,LENGTH,FLAGS",
+       "prefix" : "recv"
+    },
+    "redo" : {
+       "body" : [
+          "redo"
+       ],
+       "description" : "redo",
+       "prefix" : "redo"
+    },
+    "redo EXPR" : {
+       "body" : [
+          "redo ${1:EXPR}"
+       ],
+       "description" : "redo EXPR",
+       "prefix" : "redo"
+    },
+    "redo LABEL" : {
+       "body" : [
+          "redo ${1:LABEL}"
+       ],
+       "description" : "redo LABEL",
+       "prefix" : "redo"
+    },
+    "ref" : {
+       "body" : [
+          "ref"
+       ],
+       "description" : "ref",
+       "prefix" : "ref"
+    },
+    "ref EXPR" : {
+       "body" : [
+          "ref ${1:EXPR}"
+       ],
+       "description" : "ref EXPR",
+       "prefix" : "ref"
+    },
+    "rename OLDNAME,NEWNAME" : {
+       "body" : [
+          "rename ${1:OLDNAME},${2:NEWNAME}"
+       ],
+       "description" : "rename OLDNAME,NEWNAME",
+       "prefix" : "rename"
+    },
+    "require" : {
+       "body" : [
+          "require"
+       ],
+       "description" : "require",
+       "prefix" : "require"
+    },
+    "require EXPR" : {
+       "body" : [
+          "require ${1:EXPR}"
+       ],
+       "description" : "require EXPR",
+       "prefix" : "require"
+    },
+    "require VERSION" : {
+       "body" : [
+          "require ${1:VERSION}"
+       ],
+       "description" : "require VERSION",
+       "prefix" : "require"
+    },
+    "reset" : {
+       "body" : [
+          "reset"
+       ],
+       "description" : "reset",
+       "prefix" : "reset"
+    },
+    "reset EXPR" : {
+       "body" : [
+          "reset ${1:EXPR}"
+       ],
+       "description" : "reset EXPR",
+       "prefix" : "reset"
+    },
+    "return" : {
+       "body" : [
+          "return"
+       ],
+       "description" : "return",
+       "prefix" : "return"
+    },
+    "return EXPR" : {
+       "body" : [
+          "return ${1:EXPR}"
+       ],
+       "description" : "return EXPR",
+       "prefix" : "return"
+    },
+    "reverse LIST" : {
+       "body" : [
+          "reverse ${1:LIST}"
+       ],
+       "description" : "reverse LIST",
+       "prefix" : "reverse"
+    },
+    "rewinddir DIRHANDLE" : {
+       "body" : [
+          "rewinddir ${1:DIRHANDLE}"
+       ],
+       "description" : "rewinddir DIRHANDLE",
+       "prefix" : "rewinddir"
+    },
+    "rindex STR,SUBSTR" : {
+       "body" : [
+          "rindex ${1:STR},${2:SUBSTR}"
+       ],
+       "description" : "rindex STR,SUBSTR",
+       "prefix" : "rindex"
+    },
+    "rindex STR,SUBSTR,POSITION" : {
+       "body" : [
+          "rindex ${1:STR},${2:SUBSTR},${3:POSITION}"
+       ],
+       "description" : "rindex STR,SUBSTR,POSITION",
+       "prefix" : "rindex"
+    },
+    "rmdir" : {
+       "body" : [
+          "rmdir"
+       ],
+       "description" : "rmdir",
+       "prefix" : "rmdir"
+    },
+    "rmdir FILENAME" : {
+       "body" : [
+          "rmdir ${1:FILENAME}"
+       ],
+       "description" : "rmdir FILENAME",
+       "prefix" : "rmdir"
+    },
+    "s///" : {
+       "body" : [
+          "s///"
+       ],
+       "description" : "s///",
+       "prefix" : "s"
+    },
+    "say" : {
+       "body" : [
+          "say"
+       ],
+       "description" : "say",
+       "prefix" : "say"
+    },
+    "say FILEHANDLE" : {
+       "body" : [
+          "say ${1:FILEHANDLE}"
+       ],
+       "description" : "say FILEHANDLE",
+       "prefix" : "say"
+    },
+    "say FILEHANDLE LIST" : {
+       "body" : [
+          "say ${1:FILEHANDLE} ${2:LIST}"
+       ],
+       "description" : "say FILEHANDLE LIST",
+       "prefix" : "say"
+    },
+    "say LIST" : {
+       "body" : [
+          "say ${1:LIST}"
+       ],
+       "description" : "say LIST",
+       "prefix" : "say"
+    },
+    "scalar EXPR" : {
+       "body" : [
+          "scalar ${1:EXPR}"
+       ],
+       "description" : "scalar EXPR",
+       "prefix" : "scalar"
+    },
+    "script boilerplate" : {
+       "body" : [
+          "#!/usr/bin/env perl",
+          "",
+          "use utf8;",
+          "use v5.12;",
+          "use strict;",
+          "use autodie;",
+          "use warnings;",
+          "use warnings qw(FATAL utf8);",
+          "use open qw(:std :utf8);",
+          "use charnames qw(:full :short);",
+          "",
+          "$0"
+       ],
+       "description" : "script boilerplate",
+       "prefix" : "init script"
+    },
+    "seek FILEHANDLE,POSITION,WHENCE" : {
+       "body" : [
+          "seek ${1:FILEHANDLE},${2:POSITION},${3:WHENCE}"
+       ],
+       "description" : "seek FILEHANDLE,POSITION,WHENCE",
+       "prefix" : "seek"
+    },
+    "seekdir DIRHANDLE,POS" : {
+       "body" : [
+          "seekdir ${1:DIRHANDLE},${2:POS}"
+       ],
+       "description" : "seekdir DIRHANDLE,POS",
+       "prefix" : "seekdir"
+    },
+    "select" : {
+       "body" : [
+          "select"
+       ],
+       "description" : "select",
+       "prefix" : "select"
+    },
+    "select FILEHANDLE" : {
+       "body" : [
+          "select ${1:FILEHANDLE}"
+       ],
+       "description" : "select FILEHANDLE",
+       "prefix" : "select"
+    },
+    "select RBITS,WBITS,EBITS,TIMEOUT" : {
+       "body" : [
+          "select ${1:RBITS},${2:WBITS},${3:EBITS},${4:TIMEOUT}"
+       ],
+       "description" : "select RBITS,WBITS,EBITS,TIMEOUT",
+       "prefix" : "select"
+    },
+    "semctl ID,SEMNUM,CMD,ARG" : {
+       "body" : [
+          "semctl ${1:ID},${2:SEMNUM},${3:CMD},${4:ARG}"
+       ],
+       "description" : "semctl ID,SEMNUM,CMD,ARG",
+       "prefix" : "semctl"
+    },
+    "semget KEY,NSEMS,FLAGS" : {
+       "body" : [
+          "semget ${1:KEY},${2:NSEMS},${3:FLAGS}"
+       ],
+       "description" : "semget KEY,NSEMS,FLAGS",
+       "prefix" : "semget"
+    },
+    "semop KEY,OPSTRING" : {
+       "body" : [
+          "semop ${1:KEY},${2:OPSTRING}"
+       ],
+       "description" : "semop KEY,OPSTRING",
+       "prefix" : "semop"
+    },
+    "send SOCKET,MSG,FLAGS" : {
+       "body" : [
+          "send ${1:SOCKET},${2:MSG},${3:FLAGS}"
+       ],
+       "description" : "send SOCKET,MSG,FLAGS",
+       "prefix" : "send"
+    },
+    "send SOCKET,MSG,FLAGS,TO" : {
+       "body" : [
+          "send ${1:SOCKET},${2:MSG},${3:FLAGS},${4:TO}"
+       ],
+       "description" : "send SOCKET,MSG,FLAGS,TO",
+       "prefix" : "send"
+    },
+    "setgrent" : {
+       "body" : [
+          "setgrent"
+       ],
+       "description" : "setgrent",
+       "prefix" : "setgrent"
+    },
+    "sethostent STAYOPEN" : {
+       "body" : [
+          "sethostent ${1:STAYOPEN}"
+       ],
+       "description" : "sethostent STAYOPEN",
+       "prefix" : "sethostent"
+    },
+    "setnetent STAYOPEN" : {
+       "body" : [
+          "setnetent ${1:STAYOPEN}"
+       ],
+       "description" : "setnetent STAYOPEN",
+       "prefix" : "setnetent"
+    },
+    "setpgrp PID,PGRP" : {
+       "body" : [
+          "setpgrp ${1:PID},${2:PGRP}"
+       ],
+       "description" : "setpgrp PID,PGRP",
+       "prefix" : "setpgrp"
+    },
+    "setpriority WHICH,WHO,PRIORITY" : {
+       "body" : [
+          "setpriority ${1:WHICH},${2:WHO},${3:PRIORITY}"
+       ],
+       "description" : "setpriority WHICH,WHO,PRIORITY",
+       "prefix" : "setpriority"
+    },
+    "setprotoent STAYOPEN" : {
+       "body" : [
+          "setprotoent ${1:STAYOPEN}"
+       ],
+       "description" : "setprotoent STAYOPEN",
+       "prefix" : "setprotoent"
+    },
+    "setpwent" : {
+       "body" : [
+          "setpwent"
+       ],
+       "description" : "setpwent",
+       "prefix" : "setpwent"
+    },
+    "setservent STAYOPEN" : {
+       "body" : [
+          "setservent ${1:STAYOPEN}"
+       ],
+       "description" : "setservent STAYOPEN",
+       "prefix" : "setservent"
+    },
+    "setsockopt SOCKET,LEVEL,OPTNAME,OPTVAL" : {
+       "body" : [
+          "setsockopt ${1:SOCKET},${2:LEVEL},${3:OPTNAME},${4:OPTVAL}"
+       ],
+       "description" : "setsockopt SOCKET,LEVEL,OPTNAME,OPTVAL",
+       "prefix" : "setsockopt"
+    },
+    "shift" : {
+       "body" : [
+          "shift"
+       ],
+       "description" : "shift",
+       "prefix" : "shift"
+    },
+    "shift ARRAY" : {
+       "body" : [
+          "shift ${1:ARRAY}"
+       ],
+       "description" : "shift ARRAY",
+       "prefix" : "shift"
+    },
+    "shmctl ID,CMD,ARG" : {
+       "body" : [
+          "shmctl ${1:ID},${2:CMD},${3:ARG}"
+       ],
+       "description" : "shmctl ID,CMD,ARG",
+       "prefix" : "shmctl"
+    },
+    "shmget KEY,SIZE,FLAGS" : {
+       "body" : [
+          "shmget ${1:KEY},${2:SIZE},${3:FLAGS}"
+       ],
+       "description" : "shmget KEY,SIZE,FLAGS",
+       "prefix" : "shmget"
+    },
+    "shmread ID,VAR,POS,SIZE" : {
+       "body" : [
+          "shmread ${1:ID},${2:VAR},${3:POS},${4:SIZE}"
+       ],
+       "description" : "shmread ID,VAR,POS,SIZE",
+       "prefix" : "shmread"
+    },
+    "shmwrite ID,STRING,POS,SIZE" : {
+       "body" : [
+          "shmwrite ${1:ID},${2:STRING},${3:POS},${4:SIZE}"
+       ],
+       "description" : "shmwrite ID,STRING,POS,SIZE",
+       "prefix" : "shmwrite"
+    },
+    "shutdown SOCKET,HOW" : {
+       "body" : [
+          "shutdown ${1:SOCKET},${2:HOW}"
+       ],
+       "description" : "shutdown SOCKET,HOW",
+       "prefix" : "shutdown"
+    },
+    "sin" : {
+       "body" : [
+          "sin"
+       ],
+       "description" : "sin",
+       "prefix" : "sin"
+    },
+    "sin EXPR" : {
+       "body" : [
+          "sin ${1:EXPR}"
+       ],
+       "description" : "sin EXPR",
+       "prefix" : "sin"
+    },
+    "sleep" : {
+       "body" : [
+          "sleep"
+       ],
+       "description" : "sleep",
+       "prefix" : "sleep"
+    },
+    "sleep EXPR" : {
+       "body" : [
+          "sleep ${1:EXPR}"
+       ],
+       "description" : "sleep EXPR",
+       "prefix" : "sleep"
+    },
+    "socket SOCKET,DOMAIN,TYPE,PROTOCOL" : {
+       "body" : [
+          "socket ${1:SOCKET},${2:DOMAIN},${3:TYPE},${4:PROTOCOL}"
+       ],
+       "description" : "socket SOCKET,DOMAIN,TYPE,PROTOCOL",
+       "prefix" : "socket"
+    },
+    "socketpair SOCKET1,SOCKET2,DOMAIN,TYPE,PROTOCOL" : {
+       "body" : [
+          "socketpair SOCKET1,SOCKET2,${1:DOMAIN},${2:TYPE},${3:PROTOCOL}"
+       ],
+       "description" : "socketpair SOCKET1,SOCKET2,DOMAIN,TYPE,PROTOCOL",
+       "prefix" : "socketpair"
+    },
+    "sort BLOCK LIST" : {
+       "body" : [
+          "sort ${1:BLOCK} ${2:LIST}"
+       ],
+       "description" : "sort BLOCK LIST",
+       "prefix" : "sort"
+    },
+    "sort LIST" : {
+       "body" : [
+          "sort ${1:LIST}"
+       ],
+       "description" : "sort LIST",
+       "prefix" : "sort"
+    },
+    "sort SUBNAME LIST" : {
+       "body" : [
+          "sort ${1:SUBNAME} ${2:LIST}"
+       ],
+       "description" : "sort SUBNAME LIST",
+       "prefix" : "sort"
+    },
+    "splice ARRAY" : {
+       "body" : [
+          "splice ${1:ARRAY}"
+       ],
+       "description" : "splice ARRAY",
+       "prefix" : "splice"
+    },
+    "splice ARRAY,OFFSET" : {
+       "body" : [
+          "splice ${1:ARRAY},${2:OFFSET}"
+       ],
+       "description" : "splice ARRAY,OFFSET",
+       "prefix" : "splice"
+    },
+    "splice ARRAY,OFFSET,LENGTH" : {
+       "body" : [
+          "splice ${1:ARRAY},${2:OFFSET},${3:LENGTH}"
+       ],
+       "description" : "splice ARRAY,OFFSET,LENGTH",
+       "prefix" : "splice"
+    },
+    "splice ARRAY,OFFSET,LENGTH,LIST" : {
+       "body" : [
+          "splice ${1:ARRAY},${2:OFFSET},${3:LENGTH},${4:LIST}"
+       ],
+       "description" : "splice ARRAY,OFFSET,LENGTH,LIST",
+       "prefix" : "splice"
+    },
+    "split" : {
+       "body" : [
+          "split"
+       ],
+       "description" : "split",
+       "prefix" : "split"
+    },
+    "split /PATTERN/" : {
+       "body" : [
+          "split /${1:PATTERN}/"
+       ],
+       "description" : "split /PATTERN/",
+       "prefix" : "split"
+    },
+    "split /PATTERN/,EXPR" : {
+       "body" : [
+          "split /${1:PATTERN}/,${2:EXPR}"
+       ],
+       "description" : "split /PATTERN/,EXPR",
+       "prefix" : "split"
+    },
+    "split /PATTERN/,EXPR,LIMIT" : {
+       "body" : [
+          "split /${1:PATTERN}/,${2:EXPR},${3:LIMIT}"
+       ],
+       "description" : "split /PATTERN/,EXPR,LIMIT",
+       "prefix" : "split"
+    },
+    "sprintf FORMAT,LIST" : {
+       "body" : [
+          "sprintf ${1:FORMAT},${2:LIST}"
+       ],
+       "description" : "sprintf FORMAT,LIST",
+       "prefix" : "sprintf"
+    },
+    "sqrt" : {
+       "body" : [
+          "sqrt"
+       ],
+       "description" : "sqrt",
+       "prefix" : "sqrt"
+    },
+    "sqrt EXPR" : {
+       "body" : [
+          "sqrt ${1:EXPR}"
+       ],
+       "description" : "sqrt EXPR",
+       "prefix" : "sqrt"
+    },
+    "srand" : {
+       "body" : [
+          "srand"
+       ],
+       "description" : "srand",
+       "prefix" : "srand"
+    },
+    "srand EXPR" : {
+       "body" : [
+          "srand ${1:EXPR}"
+       ],
+       "description" : "srand EXPR",
+       "prefix" : "srand"
+    },
+    "stat" : {
+       "body" : [
+          "stat"
+       ],
+       "description" : "stat",
+       "prefix" : "stat"
+    },
+    "stat DIRHANDLE" : {
+       "body" : [
+          "stat ${1:DIRHANDLE}"
+       ],
+       "description" : "stat DIRHANDLE",
+       "prefix" : "stat"
+    },
+    "stat EXPR" : {
+       "body" : [
+          "stat ${1:EXPR}"
+       ],
+       "description" : "stat EXPR",
+       "prefix" : "stat"
+    },
+    "stat FILEHANDLE" : {
+       "body" : [
+          "stat ${1:FILEHANDLE}"
+       ],
+       "description" : "stat FILEHANDLE",
+       "prefix" : "stat"
+    },
+    "state TYPE VARLIST" : {
+       "body" : [
+          "state ${1:TYPE} ${2:VARLIST}"
+       ],
+       "description" : "state TYPE VARLIST",
+       "prefix" : "state"
+    },
+    "state TYPE VARLIST : ATTRS" : {
+       "body" : [
+          "state ${1:TYPE} ${2:VARLIST} : ${3:ATTRS}"
+       ],
+       "description" : "state TYPE VARLIST : ATTRS",
+       "prefix" : "state"
+    },
+    "state VARLIST" : {
+       "body" : [
+          "state ${1:VARLIST}"
+       ],
+       "description" : "state VARLIST",
+       "prefix" : "state"
+    },
+    "state VARLIST : ATTRS" : {
+       "body" : [
+          "state ${1:VARLIST} : ${2:ATTRS}"
+       ],
+       "description" : "state VARLIST : ATTRS",
+       "prefix" : "state"
+    },
+    "study" : {
+       "body" : [
+          "study"
+       ],
+       "description" : "study",
+       "prefix" : "study"
+    },
+    "study SCALAR" : {
+       "body" : [
+          "study ${1:SCALAR}"
+       ],
+       "description" : "study SCALAR",
+       "prefix" : "study"
+    },
+    "sub NAME (PROTO) : ATTRS BLOCK" : {
+       "body" : [
+          "sub ${1:NAME} (${2:PROTO}) : ${3:ATTRS} ${4:BLOCK}"
+       ],
+       "description" : "sub NAME (PROTO) : ATTRS BLOCK",
+       "prefix" : "sub"
+    },
+    "sub NAME (PROTO) BLOCK" : {
+       "body" : [
+          "sub ${1:NAME} (${2:PROTO}) ${3:BLOCK}"
+       ],
+       "description" : "sub NAME (PROTO) BLOCK",
+       "prefix" : "sub"
+    },
+    "sub NAME : ATTRS BLOCK" : {
+       "body" : [
+          "sub ${1:NAME} : ${2:ATTRS} ${3:BLOCK}"
+       ],
+       "description" : "sub NAME : ATTRS BLOCK",
+       "prefix" : "sub"
+    },
+    "sub NAME BLOCK" : {
+       "body" : [
+          "sub ${1:NAME} ${2:BLOCK}"
+       ],
+       "description" : "sub NAME BLOCK",
+       "prefix" : "sub"
+    },
+    "substr EXPR,OFFSET" : {
+       "body" : [
+          "substr ${1:EXPR},${2:OFFSET}"
+       ],
+       "description" : "substr EXPR,OFFSET",
+       "prefix" : "substr"
+    },
+    "substr EXPR,OFFSET,LENGTH" : {
+       "body" : [
+          "substr ${1:EXPR},${2:OFFSET},${3:LENGTH}"
+       ],
+       "description" : "substr EXPR,OFFSET,LENGTH",
+       "prefix" : "substr"
+    },
+    "substr EXPR,OFFSET,LENGTH,REPLACEMENT" : {
+       "body" : [
+          "substr ${1:EXPR},${2:OFFSET},${3:LENGTH},${4:REPLACEMENT}"
+       ],
+       "description" : "substr EXPR,OFFSET,LENGTH,REPLACEMENT",
+       "prefix" : "substr"
+    },
+    "symlink OLDFILE,NEWFILE" : {
+       "body" : [
+          "symlink ${1:OLDFILE},${2:NEWFILE}"
+       ],
+       "description" : "symlink OLDFILE,NEWFILE",
+       "prefix" : "symlink"
+    },
+    "syscall NUMBER,LIST" : {
+       "body" : [
+          "syscall ${1:NUMBER},${2:LIST}"
+       ],
+       "description" : "syscall NUMBER,LIST",
+       "prefix" : "syscall"
+    },
+    "sysopen FILEHANDLE,FILENAME,MODE" : {
+       "body" : [
+          "sysopen ${1:FILEHANDLE},${2:FILENAME},${3:MODE}"
+       ],
+       "description" : "sysopen FILEHANDLE,FILENAME,MODE",
+       "prefix" : "sysopen"
+    },
+    "sysopen FILEHANDLE,FILENAME,MODE,PERMS" : {
+       "body" : [
+          "sysopen ${1:FILEHANDLE},${2:FILENAME},${3:MODE},${4:PERMS}"
+       ],
+       "description" : "sysopen FILEHANDLE,FILENAME,MODE,PERMS",
+       "prefix" : "sysopen"
+    },
+    "sysread FILEHANDLE,SCALAR,LENGTH" : {
+       "body" : [
+          "sysread ${1:FILEHANDLE},${2:SCALAR},${3:LENGTH}"
+       ],
+       "description" : "sysread FILEHANDLE,SCALAR,LENGTH",
+       "prefix" : "sysread"
+    },
+    "sysread FILEHANDLE,SCALAR,LENGTH,OFFSET" : {
+       "body" : [
+          "sysread ${1:FILEHANDLE},${2:SCALAR},${3:LENGTH},${4:OFFSET}"
+       ],
+       "description" : "sysread FILEHANDLE,SCALAR,LENGTH,OFFSET",
+       "prefix" : "sysread"
+    },
+    "sysseek FILEHANDLE,POSITION,WHENCE" : {
+       "body" : [
+          "sysseek ${1:FILEHANDLE},${2:POSITION},${3:WHENCE}"
+       ],
+       "description" : "sysseek FILEHANDLE,POSITION,WHENCE",
+       "prefix" : "sysseek"
+    },
+    "system LIST" : {
+       "body" : [
+          "system ${1:LIST}"
+       ],
+       "description" : "system LIST",
+       "prefix" : "system"
+    },
+    "system PROGRAM LIST" : {
+       "body" : [
+          "system ${1:PROGRAM} ${2:LIST}"
+       ],
+       "description" : "system PROGRAM LIST",
+       "prefix" : "system"
+    },
+    "syswrite FILEHANDLE,SCALAR" : {
+       "body" : [
+          "syswrite ${1:FILEHANDLE},${2:SCALAR}"
+       ],
+       "description" : "syswrite FILEHANDLE,SCALAR",
+       "prefix" : "syswrite"
+    },
+    "syswrite FILEHANDLE,SCALAR,LENGTH" : {
+       "body" : [
+          "syswrite ${1:FILEHANDLE},${2:SCALAR},${3:LENGTH}"
+       ],
+       "description" : "syswrite FILEHANDLE,SCALAR,LENGTH",
+       "prefix" : "syswrite"
+    },
+    "syswrite FILEHANDLE,SCALAR,LENGTH,OFFSET" : {
+       "body" : [
+          "syswrite ${1:FILEHANDLE},${2:SCALAR},${3:LENGTH},${4:OFFSET}"
+       ],
+       "description" : "syswrite FILEHANDLE,SCALAR,LENGTH,OFFSET",
+       "prefix" : "syswrite"
+    },
+    "tell" : {
+       "body" : [
+          "tell"
+       ],
+       "description" : "tell",
+       "prefix" : "tell"
+    },
+    "tell FILEHANDLE" : {
+       "body" : [
+          "tell ${1:FILEHANDLE}"
+       ],
+       "description" : "tell FILEHANDLE",
+       "prefix" : "tell"
+    },
+    "telldir DIRHANDLE" : {
+       "body" : [
+          "telldir ${1:DIRHANDLE}"
+       ],
+       "description" : "telldir DIRHANDLE",
+       "prefix" : "telldir"
+    },
+    "test boilerplate" : {
+       "body" : [
+          "use strict;",
+          "use Test::More;",
+          "use ${1:MODULE};",
+          "",
+          "BEGIN {",
+          "\tuse_ok '${2:MODULE}';",
+          "}",
+          "",
+          "require_ok '${3:MODULE}';",
+          "",
+          "done_testing;",
+          ""
+       ],
+       "description" : "test boilerplate",
+       "prefix" : "init test"
+    },
+    "tie VARIABLE,CLASSNAME,LIST" : {
+       "body" : [
+          "tie ${1:VARIABLE},${2:CLASSNAME},${3:LIST}"
+       ],
+       "description" : "tie VARIABLE,CLASSNAME,LIST",
+       "prefix" : "tie"
+    },
+    "tied VARIABLE" : {
+       "body" : [
+          "tied ${1:VARIABLE}"
+       ],
+       "description" : "tied VARIABLE",
+       "prefix" : "tied"
+    },
+    "time" : {
+       "body" : [
+          "time"
+       ],
+       "description" : "time",
+       "prefix" : "time"
+    },
+    "times" : {
+       "body" : [
+          "times"
+       ],
+       "description" : "times",
+       "prefix" : "times"
+    },
+    "tr///" : {
+       "body" : [
+          "tr///"
+       ],
+       "description" : "tr///",
+       "prefix" : "tr"
+    },
+    "truncate EXPR,LENGTH" : {
+       "body" : [
+          "truncate ${1:EXPR},${2:LENGTH}"
+       ],
+       "description" : "truncate EXPR,LENGTH",
+       "prefix" : "truncate"
+    },
+    "truncate FILEHANDLE,LENGTH" : {
+       "body" : [
+          "truncate ${1:FILEHANDLE},${2:LENGTH}"
+       ],
+       "description" : "truncate FILEHANDLE,LENGTH",
+       "prefix" : "truncate"
+    },
+    "try BLOCK catch (VAR) BLOCK" : {
+       "body" : [
+          "try {'\n\t${1:BLOCK}\n}\ncatch (${2:VAR}) {\n\t${3:BLOCK\n}"
+       ],
+       "description" : "try BLOCK catch (VAR) BLOCK (experimental)",
+       "prefix" : "try catch"
+    },
+    "uc" : {
+       "body" : [
+          "uc"
+       ],
+       "description" : "uc",
+       "prefix" : "uc"
+    },
+    "uc EXPR" : {
+       "body" : [
+          "uc ${1:EXPR}"
+       ],
+       "description" : "uc EXPR",
+       "prefix" : "uc"
+    },
+    "ucfirst" : {
+       "body" : [
+          "ucfirst"
+       ],
+       "description" : "ucfirst",
+       "prefix" : "ucfirst"
+    },
+    "ucfirst EXPR" : {
+       "body" : [
+          "ucfirst ${1:EXPR}"
+       ],
+       "description" : "ucfirst EXPR",
+       "prefix" : "ucfirst"
+    },
+    "umask" : {
+       "body" : [
+          "umask"
+       ],
+       "description" : "umask",
+       "prefix" : "umask"
+    },
+    "umask EXPR" : {
+       "body" : [
+          "umask ${1:EXPR}"
+       ],
+       "description" : "umask EXPR",
+       "prefix" : "umask"
+    },
+    "undef" : {
+       "body" : [
+          "undef"
+       ],
+       "description" : "undef",
+       "prefix" : "undef"
+    },
+    "undef EXPR" : {
+       "body" : [
+          "undef ${1:EXPR}"
+       ],
+       "description" : "undef EXPR",
+       "prefix" : "undef"
+    },
+    "unless (EXPR) BLOCK" : {
+       "body" : [
+          "unless (${1:EXPR}) {\n\t${2:BLOCK}\n}"
+       ],
+       "description" : "unless (EXPR) BLOCK",
+       "prefix" : "unless"
+    },
+    "unless (EXPR) BLOCK else BLOCK" : {
+       "body" : [
+          "unless (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelse {\n\t${3:BLOCK\n}"
+       ],
+       "description" : "unless (EXPR) BLOCK else BLOCK",
+       "prefix" : "unless else"
+    },
+    "unless (EXPR) BLOCK elsif (EXPR) BLOCK" : {
+       "body" : [
+          "unless (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK\n}"
+       ],
+       "description" : "unless (EXPR) BLOCK elsif (EXPR) BLOCK",
+       "prefix" : "unless elsif"
+    },
+    "unless (EXPR) BLOCK elsif (EXPR) BLOCK else BLOCK" : {
+       "body" : [
+          "unless (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK}\n}\nelse{\n\t${4:BLOCK}\n}"
+       ],
+       "description" : "unless (EXPR) BLOCK elsif (EXPR) BLOCK else BLOCK",
+       "prefix" : "unless elsif else"
+    },
+    "unlink" : {
+       "body" : [
+          "unlink"
+       ],
+       "description" : "unlink",
+       "prefix" : "unlink"
+    },
+    "unlink LIST" : {
+       "body" : [
+          "unlink ${1:LIST}"
+       ],
+       "description" : "unlink LIST",
+       "prefix" : "unlink"
+    },
+    "unpack TEMPLATE" : {
+       "body" : [
+          "unpack ${1:TEMPLATE}"
+       ],
+       "description" : "unpack TEMPLATE",
+       "prefix" : "unpack"
+    },
+    "unpack TEMPLATE,EXPR" : {
+       "body" : [
+          "unpack ${1:TEMPLATE},${2:EXPR}"
+       ],
+       "description" : "unpack TEMPLATE,EXPR",
+       "prefix" : "unpack"
+    },
+    "unshift ARRAY,LIST" : {
+       "body" : [
+          "unshift ${1:ARRAY},${2:LIST}"
+       ],
+       "description" : "unshift ARRAY,LIST",
+       "prefix" : "unshift"
+    },
+    "untie VARIABLE" : {
+       "body" : [
+          "untie ${1:VARIABLE}"
+       ],
+       "description" : "untie VARIABLE",
+       "prefix" : "untie"
+    },
+    "until (EXPR) BLOCK" : {
+       "body" : [
+          "until (${1:EXPR}) {\n\t${2:BLOCK}\n}"
+       ],
+       "description" : "until (EXPR) BLOCK",
+       "prefix" : "until"
+    },
+    "until (EXPR) BLOCK continue BLOCK" : {
+       "body" : [
+          "until (${1:EXPR}) {\n\t${2:BLOCK}\n}\ncontinue {\n\t${3:BLOCK\n}"
+       ],
+       "description" : "until (EXPR) BLOCK continue BLOCK",
+       "prefix" : "until continue"
+    },
+    "use Module" : {
+       "body" : [
+          "use Module"
+       ],
+       "description" : "use Module",
+       "prefix" : "use"
+    },
+    "use Module LIST" : {
+       "body" : [
+          "use Module ${1:LIST}"
+       ],
+       "description" : "use Module LIST",
+       "prefix" : "use"
+    },
+    "use Module VERSION" : {
+       "body" : [
+          "use Module ${1:VERSION}"
+       ],
+       "description" : "use Module VERSION",
+       "prefix" : "use"
+    },
+    "use Module VERSION LIST" : {
+       "body" : [
+          "use Module ${1:VERSION} ${2:LIST}"
+       ],
+       "description" : "use Module VERSION LIST",
+       "prefix" : "use"
+    },
+    "use VERSION" : {
+       "body" : [
+          "use ${1:VERSION}"
+       ],
+       "description" : "use VERSION",
+       "prefix" : "use"
+    },
+    "utime LIST" : {
+       "body" : [
+          "utime ${1:LIST}"
+       ],
+       "description" : "utime LIST",
+       "prefix" : "utime"
+    },
+    "values ARRAY" : {
+       "body" : [
+          "values ${1:ARRAY}"
+       ],
+       "description" : "values ARRAY",
+       "prefix" : "values"
+    },
+    "values HASH" : {
+       "body" : [
+          "values ${1:HASH}"
+       ],
+       "description" : "values HASH",
+       "prefix" : "values"
+    },
+    "vec EXPR,OFFSET,BITS" : {
+       "body" : [
+          "vec ${1:EXPR},${2:OFFSET},${3:BITS}"
+       ],
+       "description" : "vec EXPR,OFFSET,BITS",
+       "prefix" : "vec"
+    },
+    "wait" : {
+       "body" : [
+          "wait"
+       ],
+       "description" : "wait",
+       "prefix" : "wait"
+    },
+    "waitpid PID,FLAGS" : {
+       "body" : [
+          "waitpid ${1:PID},${2:FLAGS}"
+       ],
+       "description" : "waitpid PID,FLAGS",
+       "prefix" : "waitpid"
+    },
+    "wantarray" : {
+       "body" : [
+          "wantarray"
+       ],
+       "description" : "wantarray",
+       "prefix" : "wantarray"
+    },
+    "warn LIST" : {
+       "body" : [
+          "warn ${1:LIST}"
+       ],
+       "description" : "warn LIST",
+       "prefix" : "warn"
+    },
+    "while (EXPR) BLOCK" : {
+       "body" : [
+          "while (${1:EXPR}) {\n\t${2:BLOCK}\n}"
+       ],
+       "description" : "while (EXPR) BLOCK",
+       "prefix" : "while"
+    },
+    "while (EXPR) BLOCK continue BLOCK" : {
+       "body" : [
+          "while (${1:EXPR}) {\n\t${2:BLOCK}\n}\ncontinue {\n\t${3:BLOCK\n}"
+       ],
+       "description" : "while (EXPR) BLOCK continue BLOCK",
+       "prefix" : "while continue"
+    },
+    "write" : {
+       "body" : [
+          "write"
+       ],
+       "description" : "write",
+       "prefix" : "write"
+    },
+    "write EXPR" : {
+       "body" : [
+          "write ${1:EXPR}"
+       ],
+       "description" : "write EXPR",
+       "prefix" : "write"
+    },
+    "write FILEHANDLE" : {
+       "body" : [
+          "write ${1:FILEHANDLE}"
+       ],
+       "description" : "write FILEHANDLE",
+       "prefix" : "write"
+    },
+    "y///" : {
+       "body" : [
+          "y///"
+       ],
+       "description" : "y///",
+       "prefix" : "y"
+    }
+ }
+ 
+ 
