@@ -1,6 +1,7 @@
 {
     "name": "perl-completions",
     "publisher": "JOROL",
+    "icon": "icon.png",
     "license": "SEE LICENSE IN LICENSE",
     "displayName": "Perl Completions",
     "description": "Perl code completion snippets",
