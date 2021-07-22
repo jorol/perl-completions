@@ -2,7 +2,7 @@
     "name": "perl-completions",
     "displayName": "Perl Completions",
     "description": "Perl code completion snippets",
-    "publisher": "JOROL",
+    "publisher": "jorol",
     "license": "SEE LICENSE IN LICENSE",
     "icon": "icon.png",
     "categories": [
@@ -30,5 +30,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/jorol/perl-completions.git"
-    }
+    },
+    "homepage": "https://github.com/jorol/perl-completions#readme"
 }
