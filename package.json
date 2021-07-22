@@ -1,17 +1,24 @@
 {
     "name": "perl-completions",
-    "publisher": "JOROL",
-    "icon": "icon.png",
-    "license": "SEE LICENSE IN LICENSE",
     "displayName": "Perl Completions",
     "description": "Perl code completion snippets",
+    "publisher": "JOROL",
+    "license": "SEE LICENSE IN LICENSE",
+    "icon": "icon.png",
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "keywords": [
+        "Perl",
+        "Perl5",
+        "Snippets",
+        "Code Completion"
+    ],
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.58.0"
     },
-    "categories": [
-        "Snippets"
-    ],
     "contributes": {
         "snippets": [
             {
