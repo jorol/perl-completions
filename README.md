@@ -4,7 +4,7 @@ Perl Completions implements code completion for Perl5 via snippets.
 
 All functions and their arguments were extracted from [Alphabetical Listing of Perl Functions](https://perldoc.perl.org/perlfunc#Alphabetical-Listing-of-Perl-Functions).
 
-The flow-control keywords were extracted from [Compound Statements ](https://perldoc.perl.org/perlsyn#Compound-Statements).
+The flow-control keywords were extracted from [Compound Statements](https://perldoc.perl.org/perlsyn#Compound-Statements).
 
 ## Features
 
