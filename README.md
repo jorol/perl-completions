@@ -31,6 +31,10 @@ Enable it with "editor.tabCompletion": "on".
 
 ## Release Notes
 
+### 0.0.2
+
+- Fix issue gh#1
+
 ### 0.0.1
 
 - Initial release
