@@ -659,7 +659,7 @@
     },
     "for VAR (LIST) BLOCK continue BLOCK" : {
        "body" : [
-          "for ${1:VAR} (${2:LIST}) {\n\t${3:BLOCK}\n}\ncontinue {\n\t${4:BLOCK\n}"
+          "for ${1:VAR} (${2:LIST}) {\n\t${3:BLOCK}\n}\ncontinue {\n\t${4:BLOCK}\n}"
        ],
        "description" : "for VAR (LIST) BLOCK continue BLOCK",
        "prefix" : "for continue"
@@ -680,7 +680,7 @@
     },
     "foreach VAR (LIST) BLOCK continue BLOCK" : {
        "body" : [
-          "foreach ${1:VAR} (${2:LIST}) {\n\t${3:BLOCK}\n}\ncontinue {\n\t${4:BLOCK\n}"
+          "foreach ${1:VAR} (${2:LIST}) {\n\t${3:BLOCK}\n}\ncontinue {\n\t${4:BLOCK}\n}"
        ],
        "description" : "foreach VAR (LIST) BLOCK continue BLOCK",
        "prefix" : "foreach continue"
@@ -988,14 +988,14 @@
     },
     "if (EXPR) BLOCK else BLOCK" : {
        "body" : [
-          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelse {\n\t${3:BLOCK\n}"
+          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelse {\n\t${3:BLOCK}\n}"
        ],
        "description" : "if (EXPR) BLOCK else BLOCK",
        "prefix" : "if else"
     },
     "if (EXPR) BLOCK elsif (EXPR) BLOCK" : {
        "body" : [
-          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK\n}"
+          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK}\n}"
        ],
        "description" : "if (EXPR) BLOCK elsif (EXPR) BLOCK",
        "prefix" : "if elsif"
@@ -2657,7 +2657,7 @@
     },
     "try BLOCK catch (VAR) BLOCK" : {
        "body" : [
-          "try {'\n\t${1:BLOCK}\n}\ncatch (${2:VAR}) {\n\t${3:BLOCK\n}"
+          "try {'\n\t${1:BLOCK}\n}\ncatch (${2:VAR}) {\n\t${3:BLOCK}\n}"
        ],
        "description" : "try BLOCK catch (VAR) BLOCK (experimental)",
        "prefix" : "try catch"
@@ -2727,14 +2727,14 @@
     },
     "unless (EXPR) BLOCK else BLOCK" : {
        "body" : [
-          "unless (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelse {\n\t${3:BLOCK\n}"
+          "unless (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelse {\n\t${3:BLOCK}\n}"
        ],
        "description" : "unless (EXPR) BLOCK else BLOCK",
        "prefix" : "unless else"
     },
     "unless (EXPR) BLOCK elsif (EXPR) BLOCK" : {
        "body" : [
-          "unless (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK\n}"
+          "unless (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK}\n}"
        ],
        "description" : "unless (EXPR) BLOCK elsif (EXPR) BLOCK",
        "prefix" : "unless elsif"
@@ -2797,7 +2797,7 @@
     },
     "until (EXPR) BLOCK continue BLOCK" : {
        "body" : [
-          "until (${1:EXPR}) {\n\t${2:BLOCK}\n}\ncontinue {\n\t${3:BLOCK\n}"
+          "until (${1:EXPR}) {\n\t${2:BLOCK}\n}\ncontinue {\n\t${3:BLOCK}\n}"
        ],
        "description" : "until (EXPR) BLOCK continue BLOCK",
        "prefix" : "until continue"
@@ -2902,7 +2902,7 @@
     },
     "while (EXPR) BLOCK continue BLOCK" : {
        "body" : [
-          "while (${1:EXPR}) {\n\t${2:BLOCK}\n}\ncontinue {\n\t${3:BLOCK\n}"
+          "while (${1:EXPR}) {\n\t${2:BLOCK}\n}\ncontinue {\n\t${3:BLOCK}\n}"
        ],
        "description" : "while (EXPR) BLOCK continue BLOCK",
        "prefix" : "while continue"
