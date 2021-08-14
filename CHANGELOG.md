@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.2] - 2021-08-14
+### Changed
+- Fix missing closing brackets
+
 ## [0.0.1] - 2021-07-20
 ### Added
 - Tab-completion support for Perl5 functions
