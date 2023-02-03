@@ -995,14 +995,14 @@
     },
     "if (EXPR) BLOCK elsif (EXPR) BLOCK" : {
        "body" : [
-          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK}\n}"
+          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${3:EXPR}) {\n\t${4:BLOCK}\n}"
        ],
        "description" : "if (EXPR) BLOCK elsif (EXPR) BLOCK",
        "prefix" : "if elsif"
     },
     "if (EXPR) BLOCK elsif (EXPR) BLOCK else BLOCK" : {
        "body" : [
-          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${2:EXPR}) {\n\t${3:BLOCK}\n}\nelse{\n\t${4:BLOCK}\n}"
+          "if (${1:EXPR}) {\n\t${2:BLOCK}\n}\nelsif (${3:EXPR}) {\n\t${4:BLOCK}\n}\nelse{\n\t${5:BLOCK}\n}"
        ],
        "description" : "if (EXPR) BLOCK elsif (EXPR) BLOCK else BLOCK",
        "prefix" : "if elsif else"
