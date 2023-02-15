@@ -1287,15 +1287,16 @@
           "use strict;",
           "use warnings;",
           "use 5.008_005;",
-          "our $VERSION = '0.01';",
+          "our \\$VERSION = '0.01';",
           "",
           "sub new {",
-          "\tmy($class, %args) = @_;",
-          "\tmy $self = bless({}, $class);",
-          "\treturn $self;",
+          "\tmy(\\$class, %args) = @_;",
+          "\tmy \\$self = bless({}, \\$class);",
+          "\treturn \\$self;",
           "}",
           "",
           "1;",
+          "",
           "__END__",
           "",
           "=encoding utf-8",
@@ -1339,8 +1340,7 @@
           "",
           "L<${10:MODULE}>",
           "",
-          "=cut",
-          ""
+          "=cut"
        ],
        "description" : "module boilerplate",
        "prefix" : "init module"
@@ -2600,8 +2600,7 @@
           "",
           "require_ok '${3:MODULE}';",
           "",
-          "done_testing;",
-          ""
+          "done_testing;"
        ],
        "description" : "test boilerplate",
        "prefix" : "init test"
